@@ -8,67 +8,81 @@
   </head>
   <body>
     <header>
-      <a href="">
-        <svg>
-          <use></use>
-        </svg>
-      </a>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Services and prices</a></li>
-        <li><a href="">Barbers</a></li>
-        <li><a href="">Contacts</a></li>
-      </ul>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <svg class="logo__icon">
+            <use></use>
+          </svg>
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="" class="nav__link">About</a></li>
+          <li class="nav__item">
+            <a href="" class="nav__link">Services and prices</a>
+          </li>
+          <li class="nav__item"><a href="" class="nav__link">Barbers</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+380441111111" class="nav__tel">+38 044 111 11 11</a>
+      <button type="button" class="nav__button">Online-booking</button>
     </header>
 
     <main>
       <section class="hero">
         <div class="container">
-          <ul>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Youtube</a></li>
+          <ul class="hero__social">
+            <li class="hero__social-item">
+              <a href="" class="hero__social-link">Instagram</a>
+            </li>
+            <li class="hero__social-item">
+              <a href="" class="hero__social-link">Youtube</a>
+            </li>
           </ul>
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>
+          <p class="hero__explanation">A hair salon for men in Kyiv</p>
+          <h1 class="hero__header">BarberShop</h1>
+          <p class="hero__text">
             We are experts in trendy men’s haircuts. We work quickly, carefully
             and with style.
           </p>
 
-          <ul>
+          <ul class="">
             <li><button>Back</button></li>
             <li><button>Forward</button></li>
           </ul>
         </div>
       </section>
 
-      <section>
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
+      <section class="about">
+        <ul class="about__img-list">
+          <li class="about__img-item">
+            <img src="" alt="" class="about__img" />
+          </li>
+          <li class="about__img-item">
+            <img src="" alt="" class="about__img" />
+          </li>
         </ul>
         <div>
-          <p>About</p>
-          <h2>Best Barbershop in your city</h2>
-          <p>
+          <p class="about__explanation">About</p>
+          <h2 class="about__header">Best Barbershop in your city</h2>
+          <p class="about__text">
             If you want to add more confidence to your image, you should
             definitely visit us.
           </p>
-          <p>
+          <p class="about__paragraph">
             We are a team that never stops at what has been achieved and are
             thirsty for changes. And when you fall into the hands of our master,
             you will never be the same again. We are a team that is always "on
             the same wave" with clients. Therefore, we are always ready to
             improve everyone who comes to us!
           </p>
-          <button type="button">ONLINE-BOOKING</button>
+          <button type="button" class="booking__button">ONLINE-BOOKING</button>
         </div>
       </section>
 
       <section>
-        <p>Spend your time with the best masters</p>
+        <p class="service__explanation">
+          Spend your time with the best masters
+        </p>
         <h2>Services and prices</h2>
         <ul>
           <li>
@@ -130,7 +144,7 @@
           </li>
         </ul>
 
-        <p>Old traditional school</p>
+        <p class="reasons__explanation">Old traditional school</p>
         <h2>¿Why people come to us?</h2>
         <p>
           Only good things are said about us. But it's better to see and feel 1
@@ -139,7 +153,7 @@
       </section>
 
       <section>
-        <p>For true enjoyers of the atmosphere</p>
+        <p class="team__explanation">For true enjoyers of the atmosphere</p>
         <h2>Our barbers</h2>
 
         <ul>
@@ -254,64 +268,91 @@
       </section>
 
       <section>
-        <p>In Latin, "barba" means "beard"</p>
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
+        <p class="gallery__explanation">In Latin, "barba" means "beard"</p>
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <img src="" alt="" class="gallery__img" />
+          </li>
+          <li class="gallery__item">
+            <img src="" alt="" class="gallery__img" />
+          </li>
+          <li class="gallery__item">
+            <img src="" alt="" class="gallery__img" />
+          </li>
+          <li class="gallery__item">
+            <img src="" alt="" class="gallery__img" />
+          </li>
         </ul>
       </section>
 
       <section>
-        <h2>Online-booking</h2>
-        <ul>
-          <li><input type="text" placeholder="Name*" /></li>
-          <li><input type="tel" placeholder="Phone*" /></li>
-          <li>
-            <textarea name="" id="" cols="30" rows="10">Message</textarea>
+        <h2 class="booking__header">Online-booking</h2>
+        <ul class="booking__list">
+          <li class="booking__item">
+            <input class="booking__input" type="text" placeholder="Name*" />
+          </li>
+          <li class="booking__item">
+            <input class="booking__input" type="tel" placeholder="Phone*" />
+          </li>
+          <li class="booking__item">
+            <textarea class="booking__input" name="" id="" cols="30" rows="10">
+Message</textarea
+            >
           </li>
         </ul>
         <button type="submit">send</button>
 
         <div class="contacts">
-          <h2>Contacts</h2>
+          <h2 class="contacts__header">Contacts</h2>
           <address>
-            <ul>
-              <li>
-                <a href=""></a>
-                <svg>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <svg class="contacts__icon">
                   <use></use>
                 </svg>
+                <a
+                  href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F,+7,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.395814,30.499117,17z/data=!3m1!4b1!4m9!1m2!2m1!1sst.+Vasilkovskaya,+7A!3m5!1s0x40d4c8c951889799:0x58e0259a6e5b738d!8m2!3d50.3958107!4d30.5036017!15sChVzdC4gVmFzaWxrb3Zza2F5YSwgN0GSARBnZW9jb2RlZF9hZGRyZXNz4AEA"
+                  class="contacts__link"
+                  target="_blank"
+                  >st. Vasilkovaya, 7A Kiev, 08132</a
+                >
               </li>
-              <li>
-                <a href=""></a>
-                <svg>
+              <li class="contacts__item">
+                <svg class="contacts__icon">
                   <use></use>
                 </svg>
+                <a href="tel:+380441111111" class="contacts__link"
+                  >+38 044 111 11 11</a
+                >
               </li>
-              <li>
-                <a href=""></a>
-                <svg>
+              <li class="contacts__item">
+                <svg class="contacts__icon">
                   <use></use>
                 </svg>
+                <a href="mailto:barbershop@email.com" class="contacts__link"
+                  >barbershop@email.com</a
+                >
               </li>
             </ul>
           </address>
-          <p>Working hours</p>
-          <p>Every day from 9:00 to 22:00</p>
+          <p class="working-hours__explanation">Working hours</p>
+          <p class="working-hours__text">Every day from 9:00 to 22:00</p>
         </div>
       </section>
     </main>
     <footer>
-      <svg>
+      <svg class="copyright__icon">
         <use></use>
       </svg>
-      <p>Copyright 2022</p>
+      <p class="copyright">Copyright 2022</p>
 
-      <ul>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Youtube</a></li>
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">Instagram</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">Youtube</a>
+        </li>
       </ul>
     </footer>
   </body>
